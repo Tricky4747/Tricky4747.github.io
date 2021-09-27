@@ -2,11 +2,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box font-family: sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 #particles-js {
 	width: 100%;
-	height: 100%;
+	height: 200%;
 	background: #262c33;
 }
 .container {
@@ -103,6 +104,8 @@ nav ul li a {
 }
 
 .particles {
+	height: 100%;
+	width: 100%;
 	position: absolute;
 	margin: 0;
 	padding: 0;
@@ -136,4 +139,86 @@ nav ul li a {
 	padding-top: 5%;
 	padding-bottom: 5%;
 	background: linear-gradient(45deg, #4580f5, #6d9dfc)
+}
+h3{
+	font-family: sans-serif;
+}
+span{
+	font-family: sans-serif;
+}
+.cardcontainer .card{
+	align-self: center;
+	padding-left: 10px;
+	width: 500px;
+	height: 400px;
+	background: rgba(255, 255, 255, 0.05);
+	margin: 20px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px);
+}
+.cardcontainer .card .content{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	opacity: 0.7;
+	transition: 0.5s;
+	padding-right: 6%;
+	padding-bottom: 6%;
+}
+.cardcontainer .card:hover .content{
+	opacity: 1;
+}
+.cardcontainer .card .content .imgBx{
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 10px solid rgba(0, 0, 0, 0.25);
+}
+.cardcontainer .card .content .imgBx img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.cardcontainer .card .content .contentBx h3{
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+	text-align: center;
+}
+.cardcontainer .card .content .contentBx span{
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: initial;
+
+}
+.cardcontainer {
+	margin-top: -10%;
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-right: 10%;
 }
