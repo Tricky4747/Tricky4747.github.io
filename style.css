@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box font-family: sans-serif;
+}
+
+#particles-js {
+	width: 100%;
+	height: 100%;
+	background: #262c33;
+}
+.container {
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.logo {
+	width: 100px;
+	cursor: pointer;
+	margin-top: 50px;
+	margin: 10px;
+	border-radius: 50%;
+	border: 2px solid #4580f5;
+}
+
+.navbar {
+	padding-top: 5px;
+	width: 100%;
+	height: 15vh;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+
+p {
+	font-size: 25px;
+}
+
+nav {
+	flex: 1;
+	padding-left: 60px;
+}
+
+nav ul li {
+	display: inline-block;
+	font-size: 25px;
+	list-style: none;
+	margin: 0px, 20px;
+}
+
+nav ul li a {
+	font-family: sans-serif;
+	padding-left: 55px;
+	text-decoration: none;
+	color: #bfcfd9;
+}
+
+.content h1 {
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: 100;
+	margin-top: 24px;
+	margin-bottom: 15px;
+	color: #cfdce3;
+}
+
+.content p {
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 95%;
+	margin-top: 24px;
+	margin-bottom: 15px;
+	color: #a7bac4;
+}
+
+.content {
+	margin-top: 10%;
+	margin-left: 5%;
+}
+
+.content .btn {
+	display: inline-block;
+	height: 40px;
+	width: 120px;
+	background: linear-gradient(45deg, #4580f5, #6d9dfc);
+	border-radius: 6px;
+	padding: 10px, 20px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #fff;
+	box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+
+.content a {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.particles {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	z-index: -100;
+}
+
+.socials {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: -80px;
+	bottom: 180px;
+}
+
+.socials a {
+	text-decoration: none;
+	color: #cee6f2;
+	padding-right: 10px;
+	opacity: 0.00f;
+	font-style: none;
+	font-size: 15px;
+}
+
+* a {
+	font-family: sans-serif;
+}
+.projects{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background: linear-gradient(45deg, #4580f5, #6d9dfc)
+}
