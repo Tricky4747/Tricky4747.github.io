@@ -207,7 +207,7 @@ span{
 	font-weight: 500;
 	font-family: sans-serif;
 	text-align: center;
-	font-size: 12px;
+	font-size: 20px;
 	font-weight: 300;
 	text-transform: initial;
 
@@ -221,4 +221,26 @@ span{
 	align-items: center;
 	flex-wrap: wrap;
 	padding-right: 10%;
+}
+.aboutcontainer{
+	padding-top: 12%;
+	padding-left: 7%;
+}
+.aboutcontainer .cardcontainer .card{
+	width: 1000px;
+	height: 700px;
+}
+.aboutcontainer .cardcontainer .card p{
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-family: sans-serif;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+	text-align: center;
+}
+.aboutcontainer .cardcontainer .card .content{
+	margin-top: -10%;
 }
