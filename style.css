@@ -202,6 +202,7 @@ span{
 }
 .cardcontainer .card .content .contentBx span{
 	color: #fff;
+	margin-left: 33%;
 	text-decoration: none;
 	letter-spacing: 2px;
 	font-weight: 500;
@@ -243,4 +244,33 @@ span{
 }
 .aboutcontainer .cardcontainer .card .content{
 	margin-top: -10%;
+}
+h1.title{
+	margin-left: 42%;
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: 100;
+	margin-top: 24px;
+	margin-bottom: 15px;
+	color: #cfdce3;
+	text-decoration: underline;
+	text-decoration-color: rgba(0, 0, 0, 0);
+	transition: text-decoration-color 300ms;
+	text-decoration-style: solid;
+	display: inline-block;
+	position: relative;
+}
+h1.title:hover{
+	text-decoration-color: #abd2ff;
+}
+.contact a {
+	margin: 20px;
+    color: #fff;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+}
+
+.contact a:hover {
+    text-decoration-color: #cfdce3;
+    cursor: pointer;
 }
