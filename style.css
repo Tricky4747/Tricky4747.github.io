@@ -6,8 +6,10 @@
 }
 
 #particles-js {
-	width: 100%;
-	height: 200%;
+	min-height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
 	background: #262c33;
 }
 .container {
